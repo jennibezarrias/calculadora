@@ -1,3 +1,18 @@
+body{
+    margin: 0;
+    background: url(https://images.unsplash.com/photo-1516493249877-44b50333c6c8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img{
+    opacity: 0;
+}
+
+.fundo{
+    margin-top: 60px;
+}
+
 .calculadora{
     display: grid;
     grid-template-columns: 1fr 265px 1fr;
@@ -9,8 +24,15 @@
     padding: 12px;
     font-size: 1.5rem;
     border: 1px solid lightgrey;
-    background: #fffbfb;
-    border-radius: 4px;
+    background: #ffffff;
+    border-radius: 83px;
+}
+
+.fundo-2{
+    width: 267px;
+    background: white;
+    margin: 0px auto;
+    border-radius: 10px;
 }
 
 tr{
@@ -18,12 +40,12 @@ tr{
     align-items: stretch;
     flex-direction: column;
     vertical-align: top;
+    
 }
 
 table{
     grid-column-start: 2;
-    box-shadow: 15px 18px 8px rgb(127 205 205 / 39%);
-    background: rgb(154 219 219 / 39%);
+    
 }
 
 #resultado{
@@ -38,16 +60,19 @@ table{
 
 h2{
     grid-column-start: 2;
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     height: 40px;
     text-align: center;
-    width: 264px;
-    background: white;
-    color: #999898;
-    border: 1px solid black;
-    margin: 0px;
+    color: #c3c3c3;
+    margin: 0px
 }
 
 button{
     cursor: pointer;
+}
+
+td{
+    box-shadow: 2px -1px 6px 0px #f4e9e9;
+    filter: drop-shadow(10px 10px 30px #f4e9e9);
+    border-radius: 60px;
 }
