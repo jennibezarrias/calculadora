@@ -76,3 +76,37 @@ td{
     filter: drop-shadow(10px 10px 30px #f4e9e9);
     border-radius: 60px;
 }
+
+/*Responsivo mobile*/
+
+@media (max-width:480px){
+    body{
+        background-image: url('https://images.unsplash.com/photo-1574169208507-84376144848b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1479&q=80');
+        background-repeat: round;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    .fundo{
+        margin: 160px auto;
+    }
+    .fundo-2{
+        width: 230px;
+    }
+    .botao{
+        width: 50px;
+        height: 50px;
+        font-size: 1rem;
+    }
+    .btn-maior{
+        width: 156px !important;
+    }
+
+    .calculadora{
+        grid-template-columns: 1fr 220px 1fr;
+    }
+    #resultado{
+        width: 205px;
+        margin-right: 10px;
+    }
+}
