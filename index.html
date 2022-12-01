@@ -8,7 +8,59 @@
     <link rel="stylesheet" href="/style.css">
 </head>
     <style>
-    
+        .calculadora{
+        display: grid;
+        grid-template-columns: 1fr 265px 1fr;
+        justify-items: center;
+    }
+
+    .botao{
+        width: 61px;
+        padding: 12px;
+        font-size: 1.5rem;
+        border: 1px solid lightgrey;
+        background: #fffbfb;
+        border-radius: 4px;
+    }
+
+    tr{
+        display: block;
+        align-items: stretch;
+        flex-direction: column;
+        vertical-align: top;
+    }
+
+    table{
+        grid-column-start: 2;
+        box-shadow: 15px 18px 8px rgb(127 205 205 / 39%);
+        background: rgb(154 219 219 / 39%);
+    }
+
+    #resultado{
+        grid-column-start: 2;
+        font-size: 1.3rem;
+        width: 265px;
+        text-align: end;
+        margin-right: 20px;
+        height: 10px;
+    }
+
+
+    h2{
+        grid-column-start: 2;
+        font-size: 2.5rem;
+        height: 40px;
+        text-align: center;
+        width: 264px;
+        background: white;
+        color: #999898;
+        border: 1px solid black;
+        margin: 0px;
+    }
+
+    button{
+        cursor: pointer;
+    }
     </style>
 <body>
     <div class = "fundo">
